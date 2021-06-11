@@ -1,4 +1,4 @@
 {
     "postCreateCommand": "bash ./run-me.sh",
-    "postStartCommand": "bash ./run-post-start.sh",  
+    "postStartCommand": "bash sleep 2m && ./run-post-start.sh",  
 }
