@@ -1,9 +1,6 @@
 {
     "build": {
-        "dockerfile": "Dockerfile",
-        "args": {
-            "VARIANT": "focal"
-        }
+        "dockerfile": "base.Dockerfile"
     },
     "initializeCommand": "touch heythere.txt",
     "containerEnv": {
