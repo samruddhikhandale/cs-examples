@@ -3,5 +3,5 @@
         "dockerfile": "Dockerfile"
     },
     "initializeCommand": "touch heythere.txt",
-    "postCreateCommand": "echo `whoami`> whoami.txt"
+    "postCreateCommand": "bash ./sleep-me.sh && oryx build -p virtualenv_name=.venv --log-file /workspaces/.oryx/oryx-build.log --manifest-dir /workspaces/.oryx || echo 'Could not auto-build. Skipping.'"
 }
