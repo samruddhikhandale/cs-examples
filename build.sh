@@ -1,10 +1,12 @@
 #!/bin/bash
 
 echo "Building ShaDoApp"
+echo "Building ShaDoApp"
+echo "Building ShaDoApp"
+echo "Building ShaDoApp"
 
-cd checklist.ui
 npm install
-npm run build
+# npm run build
 
 # cd ..
 # mkdir checklist.service/public
