@@ -1,3 +1,7 @@
 {
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu"
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "initializeCommand": "touch heythere.txt",
+    "postCreateCommand": "echo `whoami`> whoami.txt"
 }
