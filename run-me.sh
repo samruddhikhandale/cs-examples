@@ -8,7 +8,7 @@ echo -n "I was triggered by the postcreate" >> ./child2.txt
 sleep 15s
 echo "::endstep::"
 echo -n "I was triggered by the postcreate" >> ./childEndStep.txt
-sleep 20s
+sleep 15s
 echo "::step::3rd step"
 echo -n "I was triggered by the postcreate" >> ./child3.txt
 sleep 10s
