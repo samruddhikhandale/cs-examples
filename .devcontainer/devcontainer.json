@@ -1,7 +1,7 @@
 {
     "image": "ubuntu:focal",
     "features": {
-        "kubectl-helm-minikube": {
+        "github-cli": {
             "version": "latest"
         }
     }
