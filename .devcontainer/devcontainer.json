@@ -1,6 +1,3 @@
 {
-    "settings": {
-        "editor.formatOnSave": false,
-        "terminal.integrated.shell.linux": "/bin/zsh"
-     }
+    "image": "mcr.microsoft.com/devcontainers/images:latest"
 }
