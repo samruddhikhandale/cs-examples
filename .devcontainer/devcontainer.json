@@ -1,8 +1,7 @@
 {
-    "image": "ubuntu:focal",
-    "features": {
-        "github-cli": {
-            "version": "latest"
-        }
+  "features": {
+    "ghcr.io/devcontainers/features/docker-from-docker:1": {
+      "version": "latest"
     }
+  }
 }
