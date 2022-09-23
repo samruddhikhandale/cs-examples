@@ -3,5 +3,8 @@
     "ghcr.io/devcontainers/features/docker-from-docker:1": {
       "version": "latest"
     }
-  }
+  },
+  "extensions": [
+     "GitHub.vscode-pull-request-github"
+  ]
 }
