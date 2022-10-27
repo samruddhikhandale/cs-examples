@@ -1,4 +1,3 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:latest",
-    "postCreateCommand": "whoami && ls -la /opt"
+    "image": "mcr.microsoft.com/devcontainers/universal:dev",
 }
