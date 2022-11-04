@@ -1,0 +1,3 @@
+{
+    "postCreateCommand": "ln -snf /usr/local/sdkman/candidates/java/current /home/codespace/.java/current"
+}
